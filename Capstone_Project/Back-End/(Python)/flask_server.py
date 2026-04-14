@@ -15,7 +15,6 @@ flask_server.register_blueprint(customer_blueprint)
 flask_server.register_blueprint(employee_blueprint)
 flask_server.register_blueprint(court_blueprint)
 flask_server.register_blueprint(reservation_blueprint)
-flask_server.debug=True
 
 def get_server_status():
     return "Running"    
